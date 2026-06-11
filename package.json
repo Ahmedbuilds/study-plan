@@ -1,0 +1,32 @@
+{
+  "name": "study-plan",
+  "private": true,
+  "version": "0.0.0",
+  "main": "expo/AppEntry.js",
+  "type": "module",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "export:web": "expo export --platform web",
+    "lint": "eslint .",
+    "doctor": "expo doctor"
+  },
+  "dependencies": {
+    "expo": "~54.0.35",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@eslint/js": "^10.0.1",
+    "@types/react": "~19.1.10",
+    "@types/react-dom": "~19.1.7",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0"
+  }
+}
